@@ -1,0 +1,30 @@
+# Local macOS metadata
+.DS_Store
+._*
+
+# Generated applications, installers and build caches
+*.app/
+*.dmg
+*.zip
+.build/
+.swiftpm/
+build/
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+credentials.json
+
+# Editor files
+.idea/
+.vscode/
+*.xcuserstate
